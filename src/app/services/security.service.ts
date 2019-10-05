@@ -28,6 +28,12 @@ export class SecurityService {
   loginUser(username: String, pass: String) {
     let tb_user = JSON.parse(localStorage.getItem("tb_users"));
     let user = tb_user.find(u => u.email == username && u.password == pass);
+    /*let user = null;
+    tb_user.forEach(u => {
+      if(u.email == username && u.password == pass){
+        user = u;
+      }      
+    });*/
 
     if (user != undefined) {
       user.isLogged = true;
@@ -41,6 +47,4 @@ export class SecurityService {
     localStorage.removeItem("activeUser");
     this.userInfo.next(new UserModel());
   }
-
-
 }

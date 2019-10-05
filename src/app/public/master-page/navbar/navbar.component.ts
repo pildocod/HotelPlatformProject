@@ -14,7 +14,7 @@ export class NavbarComponent implements OnInit {
   userInfo: UserModel;
   userLogged:boolean = false;
   userName: String;
-
+  
   subscription: Subscription;
 
   constructor(private secService: SecurityService) { }

@@ -1,0 +1,3 @@
+{"firstName":"Administror","secondName":"of","firstLastname": "System","secondLastname":"", "email":"administrator@gmail.com',"isLogged": true}
+
+[{"firstName":"Administror","secondName":"of","firstLastname":"Platform","secondLastname":"", "email":"administrator@gmail.com","password":"1234567890"},{"firstName":"Pepito","secondName":"José","firstLastname": "Perez","secondLastname":"", "email":"pepito@gmail.com","password":"1234567890"}]
